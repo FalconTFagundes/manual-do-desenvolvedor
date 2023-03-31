@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+            @font-face {
+            font-family: 'louis';
+            src: url(../font/Louis\ George\ Cafe.ttf);
+        }
+
+        body{
+            font-family: 'louis';
+            background: linear-gradient(50deg, rgba(14, 0, 0, 0.836), rgba(209, 48, 48, 0.753));
+        }
+
+        div{
+            background-color: rgba(0, 0, 0, 0.712);
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate( -50%, -50%);
+            padding: 80px;
+            border-radius: 20px;
+
+        }
+
+        input{
+            padding: 15px;
+            border-radius: 15px;
+            border: none;
+            outline: none;
+        }
+
+        button{
+            background-color: black;
+            padding: 15px;
+            border: none;
+            width: 100%;
+            border-radius: 15px;
+            color: white;
+            outline: none;
+            transition-duration: 0.3s;       
+            background: rgb(255,0,26);
+            background: linear-gradient(257deg, rgba(255,0,26,1) 0%, rgba(255,0,185,1) 100%);     
+           
+        }
+
+        button:hover{
+            background: rgb(181,0,18);
+            background: linear-gradient(257deg, rgba(181,0,18,1) 0%, rgba(168,0,123,1) 100%);
+            cursor: pointer;
+            padding: 20px;
+            transition-duration: 0.3s;
+            box-shadow: 2px 2px rgb(255, 137, 137), 3px 3px rgb(255, 255, 255);
+           
+    
+        
+        }
+
+        fieldset{
+            border-radius: 15px;
+            color: rgb(255, 255, 255);
+            font-size: 15pt;
+            border: red 3px solid;
+            padding: 30px;
+        }
+
+        legend{
+           background-color: red;
+           color: white;
+           padding: 5px;
+           border-radius: 10px;
+           border: 2px solid red;
+           text-align: center;
+        }
+
+
+        .linksLogin{
+            position: absolute;
+            text-decoration: none;
+            color: white;
+            top: 92%;
+            right: 5%;
+            transition: 0.2s;
+        }
+
+        .linksLogin:hover{
+            color: rgb(255, 20, 43);
+            transition: 0.2s;
+                       
+        }
+
+        #esqueceuasenha{
+            position: absolute;
+            right: 65%;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <form action="" method="POST">
+         
+            <fieldset>
+                <legend><b>LOGIN</b></legend>
+                <input type="text" placeholder="nickname">
+                <br><br>
+                <input type="password" placeholder="senha">
+                <br><br>
+                <button>Entrar</button>
+            </fieldset>
+            <a href="teladecadastro.html" class="linksLogin">Cadastrar</a>
+            <a href="" class="linksLogin" id="esqueceuasenha">Esqueceu a senha?</a> 
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1432 @@
+/*-----------------------------------------------------------------*/
+/*1 comando*/
+/*cor do fundo do corpo do meu codigo*/
+
+
+
+body {
+
+    font-family: louis;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    gap: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+}
+
+/* CSS que controla o background */
+.bg {
+    animation: slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(148, 148, 148) 50%, rgb(99, 99, 99) 50%);
+    bottom: 0;
+    left: -50%;
+    opacity: .5;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    z-index: -1;
+}
+
+.bg2 {
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
+}
+
+.bg3 {
+    animation-duration: 5s;
+}
+
+
+
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(25%);
+    }
+}
+
+/* fim do CSS que controla o background */
+/*-----------------------------------------------------------------*/
+/*2 comando*/
+/*id da primeira imagem index*/
+#imagemindex1 {
+
+
+    width: 100%;
+    height: 110vh;
+
+}
+
+/*-----------------------------------------------------------------*/
+/*3 comando*/
+/*id usada no primeiro logo da index*/
+/*usei height para deixar só a escrita*/
+#logoindex1 {
+
+    width: 30%;
+
+
+}
+
+#logoindex1 img {
+    width: 400px;
+    height: 80px;
+    margin-top: 5%;
+    margin-left: -20%;
+    cursor: pointer;
+}
+
+/*-----------------------------------------------------------------*/
+
+/*4 comando*/
+/*Footer*/
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.377);
+    height: 15%;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    font-family: nicomoji;
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+/*Div dos links (Criada para movimentar os <a>*/
+#divlinks1 {
+    font-family: 'nicomoji';
+    width: 37%;
+    text-decoration: none;
+    margin-top: 2.5%;
+
+}
+
+#usuario2 {
+    width: 30%;
+    margin-left: 2%;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+#usuario2 img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    border: 2px rgba(173, 173, 173, 0.61) solid;
+    cursor: pointer;
+
+}
+
+#usuario2 a {
+    width: 15%;
+    height: 50%;
+    margin-left: 2%;
+    margin-top: 4%;
+
+}
+
+#usuario2 p {
+    font-size: 15px;
+    color: rgb(145, 145, 145);
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*5 comando*/
+/*afastamento dos links, cores dos links*/
+.styleelink {
+    color: rgb(145, 145, 145);
+    margin-left: 20px;
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 17pt;
+
+
+}
+
+
+
+/* efeito nos botões (hover) */
+.styleelink:hover {
+    color: rgb(255, 0, 0);
+    box-shadow: 0px 2px 5px rgba(255, 0, 0, 0.288);
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+
+
+
+/*-----------------------------------------------------------------*/
+
+/*6 comando*/
+/*primeira escrita index*/
+#escritaindex1 {
+
+
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'nicomoji';
+
+    border-radius: 30px;
+    position: absolute;
+    margin-left: 0px;
+
+    display: inline-block;
+
+
+}
+
+
+#escritaindex1 p {
+
+
+    font-family: 'louis';
+
+}
+
+
+#escritaindex1 h1 {
+    text-align: center;
+    padding: 1rem 2rem;
+
+
+}
+
+/*-----------------------------------------------------------------*/
+/*7 comando*/
+/*imagens(janela de programação) index*/
+#logos {
+    background-image: url(../img/imgindex.png);
+    border-radius: 10%;
+    width: 380px;
+    height: 380px;
+    ;
+    margin-left: 75%;
+    box-shadow: 5px 5px 80px rgba(158, 0, 0, 0.719);
+    margin-top: 10%;
+
+}
+
+/*-----------------------------------------------------------------*/
+/*7 comando*/
+/*imagens(janela de programação) index*/
+#corpoindex {
+
+    width: 100%;
+    height: 100%;
+    padding: 2px 10px;
+    margin-top: -12%;
+
+}
+
+/*-----------------------------------------------------------------*/
+/*8 comando*/
+/*titulo index texto parte 2*/
+#tituloparte2index {
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    margin-top: 6%;
+}
+
+/*-----------------------------------------------------------------*/
+/*9 comando*/
+/*paragrafo index texto parte 2*/
+/*OBS: div titulo parte 2 faz parte do paragrafo parte 2, font-family se aplica no paragrafo - font-family:cursive*/
+
+
+/*-----------------------------------------------------------------*/
+/*10 comando*/
+/*imagem diego programas index*/
+#diegoprogramaslogo {
+    background-image: url(../img/img1indexz.png);
+    width: 400px;
+    height: 400px;
+    margin: 0% 3%;
+    border-radius: 20px;
+    color: white;
+}
+
+/*-----------------------------------------------------------------*/
+/*11 comando*/
+/*titulo e paragrafo 3 index*/
+#tituloparte3index {
+    height: 500px;
+    font-size: 20px;
+    width: 800px;
+    margin: 0% 120%;
+    color: white;
+    font-family: 'louis';
+
+
+}
+
+/*-----------------------------------------------------------------*/
+/*12 comando*/
+/*div que controla o texto dos cards e o tamanho de cada um*/
+
+.divcard {
+    text-align: center;
+    border-radius: 20%;
+    font-family: louis;
+    width: 100%;
+    background-color: rgba(56, 56, 56, 0.356);
+}
+
+/*-----------------------------------------------------------------*/
+/*12 comando*/
+/*controla o 1 card*/
+#imagem1card {
+    background-image: url(../img/comentario.jpg);
+    border-radius: 20px;
+    margin: 0% 0%;
+    width: 300px;
+    height: 200px;
+}
+
+/*-----------------------------------------------------------------*/
+/*13 comando*/
+/*controla o 2 card*/
+#imagem2card {
+    background-image: url(../img/mundo.jpg);
+    border-radius: 20px;
+    margin: 0% 0%;
+    width: 300px;
+    height: 200px;
+}
+
+/*-----------------------------------------------------------------*/
+/*13 comando*/
+/*controla o 3 card*/
+#imagem3card {
+    background-image: url(../img/imagem3.jpg);
+    border-radius: 20px;
+    margin: 0% 0%;
+    width: 300px;
+    height: 200px;
+}
+
+/*-----------------------------------------------------------------*/
+/*14 comando*/
+/*controla a div de todos os cards*/
+#cardsindex {
+    width: 100%;
+    display: inline-block;
+    font-family: cursive;
+
+    /*-----------------------------------------------------------------*/
+    /*15 comando*/
+    /*controla o paragrafo de todos os cards*/
+}
+
+.textocards {
+    margin: 0% 150%;
+    text-align: justify;
+    font-size: 20px;
+    width: 500px;
+    margin-left: 230%;
+}
+
+/*-----------------------------------------------------------------*/
+/*16 comando*/
+/*controla a div principal do rodape*/
+footer {
+    width: 100%;
+    height: 100%;
+
+}
+
+.footerimg{
+
+text-align: center;
+
+}
+
+/*-----------------------------------------------------------------*/
+/*17 comando*/
+/*controla a logo do rodape*/
+#logorodape {
+    width: 32%;
+    align-items: center;
+
+    margin-left: 34%;
+
+
+
+}
+
+#logorodape img {
+    width: 447px;
+    height: 300px;
+
+}
+
+/*-----------------------------------------------------------------*/
+/*18 comando*/
+/*controla o h1 do site no rodape (www.manualdodesenvolvedor.com)*/
+
+#siterodape {
+    margin: 20% 0%;
+    position: absolute
+}
+
+/*-----------------------------------------------------------------*/
+/*19 comando*/
+/*controla os links do rodape*/
+
+.linkrodape {
+
+    margin: -45% 15%;
+    font-size: 40px;
+
+}
+
+/*-----------------------------------------------------------------*/
+/*20 comando*/
+/*controla a fonte e a cor dos links do rodape*/
+.fonterodape {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+/*-----------------------------------------------------------------*/
+/*21 comando*/
+/*responsavel pelos links do rodape*/
+.fonterodape2 {
+    width: 400px;
+    color: white;
+    text-decoration: none;
+    margin: -22% 55%;
+    position: absolute
+}
+
+/*-----------------------------------------------------------------*/
+/*22 comando*/
+/*responsavel pelo icone do facebook*/
+#logorodape1 {
+    background-image: url(../img/Facebook.png);
+    margin-left: 10px;
+    width: 100px;
+    height: 56px;
+    border-radius: 50px;
+    /*-----------------------------------------------------------------*/
+    /*23 comando*/
+    /*responsavel pelo icone do instagram*/
+
+}
+
+#logorodape2 {
+    background-image: url(../img/instagram.jpg);
+    margin-left: 10px;
+    width: 100px;
+    height: 56px;
+    border-radius: 50px;
+}
+
+/*-----------------------------------------------------------------*/
+/*24 comando*/
+/*responsavel pelos icone do telegram*/
+#logorodape3 {
+    background-image: url(../img/tele.jpg);
+    margin-left: 10px;
+    width: 100px;
+    height: 56px;
+    border-radius: 50px;
+
+}
+
+/*-----------------------------------------------------------------*/
+/*25 comando*/
+/*responsavel pela div dos 3 primeiros icones a cima rede social*/
+#logorodape4 {
+    position: absolute;
+
+    margin: 50% 70%;
+
+    /*-----------------------------------------------------------------*/
+    /*26 comando*/
+    /*responsavel pelo icone linkedin*/
+}
+
+#logorodape5 {
+    background-image: url(../img/linkedin.png);
+    margin-left: 10px;
+    width: 100px;
+    height: 56px;
+    border-radius: 50px;
+
+}
+
+/*-----------------------------------------------------------------*/
+/*27 comando*/
+/*responsavel pelo icone youtube*/
+#logorodape6 {
+    background-image: url(../img/youtube.png);
+    margin-left: 10px;
+    width: 100px;
+    height: 56px;
+    border-radius: 50px;
+
+}
+
+/*-----------------------------------------------------------------*/
+/*28 comando*/
+/*responsavel pelos links do twiiter*/
+#logorodape7 {
+    background-image: url(../img/twiiter.png);
+    margin-left: 10px;
+    width: 100px;
+    height: 56px;
+    border-radius: 50px;
+
+}
+
+/*-----------------------------------------------------------------*/
+/*29 comando*/
+/*responsavel pelos 3 icones a baixo dos 3 primeiros icones rodape rede social*/
+#iconesrodape2 {
+    position: absolute;
+    margin: 50% 90%;
+
+}
+
+/*-----------------------------------------------------------------*/
+/*30 comando*/
+/*responsavel pelos 3 icones a baixo dos 3 primeiros icones rodape rede social*/
+.escritacard2 {
+    text-align: center;
+
+}
+
+/*-----------------------------------------------------------------*/
+/*31 comando*/
+/*imagem biceps 1*/
+#musculo1 {
+    background-image: url(../img/poder2.jpg);
+    height: 100px;
+    width: 100px;
+    margin: -8% 32%;
+
+    display: inline-block;
+}
+
+/*-----------------------------------------------------------------*/
+/*32 comando*/
+/*biceps musculo 2*/
+#musculo2 {
+    background-image: url(../img/poder.jpg);
+    height: 100px;
+    width: 100px;
+    margin: -7% 62%;
+
+    display: inline-block;
+}
+
+/*-----------------------------------------------------------------*/
+/*33 comando*/
+/*card de ferramentas (php, js e node) card que controla tudo*/
+#cardferramentasglobal {
+
+    font-family: cursive;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+
+
+}
+
+/*-----------------------------------------------------------------*/
+/*34 comando*/
+/*card que é responsavel pela cor e tamanho (card de ferramentas)*/
+.cardferramentas {
+    width: 100%;
+    border-radius: 50px;
+    margin-left: 6%;
+
+
+}
+
+/*-----------------------------------------------------------------*/
+/*35 comando*/
+/*imagem 1 card ferramentas (node)*/
+#imagemferramenta1 {
+    border-radius: 50px;
+    background-image: url(../img/node.png);
+    width: 360px;
+    height: 360px;
+    margin-left: 1px;
+}
+
+/*-----------------------------------------------------------------*/
+/*36 comando*/
+/*imagem 2 card ferramentas (js)*/
+#imagemferramenta2 {
+    border-radius: 50px;
+    background-image: url(../img/js.png);
+    width: 360px;
+    height: 360px;
+    margin-left: 1px;
+}
+
+/*-----------------------------------------------------------------*/
+/*37 comando*/
+/*imagem 3 card ferramentas (php)*/
+#imagemferramenta3 {
+    border-radius: 50px;
+    background-image: url(../img/php.jpg);
+    width: 360px;
+    height: 360px;
+    margin-left: 1px;
+}
+
+/*-----------------------------------------------------------------*/
+
+/*38 comando*/
+/*Segunda escrita index*/
+#escritaindex2 {
+    text-align: center;
+    background-color: rgba(235, 240, 233, 0.205);
+    font-size: 29px;
+    color: rgb(255, 255, 255);
+    font-family: Cursive;
+    margin-top: 10%;
+    border-radius: 30px;
+    position: absolute;
+    width: 70%;
+    height: 20%;
+}
+
+
+#escritaindex2 p {
+
+    font-family: Louis;
+
+}
+
+/*-----------------------------------------------------------------*/
+
+/*39 comando*/
+
+
+/*40 comando
+customizar as perguntas*/
+
+.perguntas {
+    width: 24%;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 38%;
+    text-align: center;
+
+
+}
+
+.perguntas:hover {
+    transition: 0.5s;
+    color: red;
+    box-shadow: 2px 5px 40px black;
+
+
+}
+
+#campoperguntas {
+    font-size: 20px;
+    font-family: 'Louis';
+
+}
+
+.detalhes {
+    width: 50%;
+    margin-left: 25%;
+
+    color: #fff;
+
+
+}
+
+#pergunta {
+    text-align: center;
+
+}
+
+#idmae {
+    width: 100%;
+    height: 100vh;
+    font-family: 'louis';
+
+
+}
+
+#formprincipal {
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.codigo {
+    margin: -3% 60%;
+    width: 20%;
+
+
+
+}
+
+.tamanhocodigo {
+    width: 500px;
+    height: 500px;
+
+}
+
+pre {
+    border: solid black 2px;
+    width: 16%;
+    border-radius: 10px;
+
+
+
+}
+
+#comandopre {
+    position: absolute;
+    width: 50%;
+    margin: -16% 18%;
+}
+
+.divvideo {
+    margin-left: 68%;
+    margin-top: -30%;
+    width: 565px;
+    background-color: rgba(0, 0, 0, 0.54);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.video {
+    border-radius: 20px;
+    width: 560px;
+    height: 315px;
+
+}
+
+.passo1soma a:hover {
+
+    background-color: rgba(255, 0, 0, 0.415);
+
+}
+
+.textoexplicacao {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.reclamacaocampo {
+    font-size: 20px;
+    width: 1200px;
+    height: 200px;
+    margin: 2% 0%;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+
+.campotextorec {
+    width: 63.5%;
+    font-family: louis;
+    color: rgb(0, 0, 0);
+    font-weight: bold
+}
+
+.fonteprojetos {
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.buttonprojeto {
+    margin: -1% 45%;
+    width: 120px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 20px;
+    outline: none;  
+}
+
+.buttonprojeto:hover {
+    background-color: red;
+    box-shadow: 5px 10px 5px rgb(80, 0, 0);
+    transition: 0.5s;
+
+}
+
+#comandopreidade {
+    
+    margin-left: 20%;
+    margin-top: -20%;
+    width: 44%;
+}
+
+/*-----------------------------------------------------------------*/
+
+@media (max-width : 600px) {
+    #divlinks1 {
+        position: absolute;
+        width: 1000px;
+        margin: -2% -73%;
+    }
+
+    #logos {
+        background-image: none;
+
+    }
+
+    #corpoindex {
+        margin: 80px -8px;
+        height: 7000px;
+
+
+
+    }
+
+    #escritaindex1 {
+        height: 750px;
+        font-size: 10px;
+
+    }
+
+    #escritaindex2 {
+        margin: 2% 15%;
+    }
+
+    #tituloparte2index {
+        width: 450px;
+        margin: 2% 1%;
+        border-radius: 20px;
+        background-color: rgba(128, 128, 128, 0.418);
+        text-align: center;
+    }
+
+    #tituloparte3index {
+        position: absolute;
+        margin: 79% 10%;
+        background-color: rgba(128, 128, 128, 0.418);
+        text-align: center;
+        width: 400px;
+        border-radius: 20px;
+    }
+
+    #cardsindex {
+
+        margin: 80% -2%;
+        font-size: 10px;
+        height: 1000px;
+        flex-direction: column;
+    }
+
+    .divcard {
+
+
+        margin: 15% 5%;
+        width: 450px;
+        height: 500px;
+        flex-direction: column;
+    }
+
+    .textocards {
+        width: 450px;
+        margin: 80% -17%;
+        position: absolute
+    }
+
+    #imagem1card {
+        margin: 0% 10%;
+        position: absolute;
+    }
+
+    #imagem2card {
+        margin: 0% 10%;
+        position: absolute;
+    }
+
+    #imagem3card {
+        margin: 0% 10%;
+        position: absolute;
+    }
+
+    #campoperguntas {
+        margin: 110% 5%;
+        position: absolute;
+        background-color: rgba(128, 128, 128, 0.514);
+        border-radius: 20px;
+        height: 900px;
+    }
+
+    #musculoescrita {
+        position: absolute;
+
+        margin: 300% 30%;
+        width: 200px;
+
+
+    }
+
+    #musculo1 {
+        position: absolute;
+        margin: 5% -50%;
+    }
+
+    #musculo2 {
+        position: absolute;
+        margin: 0% 100%;
+    }
+
+    #cardferramentasglobal {
+
+        position: absolute;
+        margin: 350% -10%;
+        flex-direction: column;
+
+    }
+
+    .cardferramentas {
+        margin-top: 20px;
+    }
+
+    #rodape {
+        margin: -40% -2%;
+        width: 500px;
+
+
+    }
+
+    .linkrodape {
+
+        margin: -90% 3%;
+        font-size: 25px;
+
+    }
+
+    #logorodape {
+        position: absolute;
+        margin: 250px -20px;
+        height: 80px;
+    }
+
+    #logorodape4 {
+        margin: 450px 40px;
+        display: flex;
+    }
+
+    #iconesrodape2 {
+        position: absolute;
+        margin: -380px 40px;
+        display: flex;
+    }
+
+
+}
+
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.projetosaba {
+    background-color: rgba(0, 0, 0, 0.450);
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 5px;
+    box-shadow: 0 9px #999;
+
+    outline: none;
+    border: none;
+
+}
+
+.projetosaba:hover {
+    background-color: white;
+    color: black;
+
+
+}
+
+.projetosaba:active {
+    box-shadow: 0 3px #999;
+    transform: translateY(4px);
+    border: groove 3px black;
+}
+
+#equipe {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    flex: 1.4;
+    width: 800px;
+    height: 100%;
+
+}
+
+.equipe {
+    border: 2px solid #0a0a0a;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-left: 5%;
+    width: 272px;
+    height: 100%;
+    background: linear-gradient(rgba(214, 3, 3, 0.849), #420000 100%);
+    text-align: center;
+
+
+}
+
+.equipe2 {
+    border: 2px solid #0a0a0a;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 272px;
+    height: 250px;
+    text-align: center;
+    background: linear-gradient(rgba(214, 3, 3, 0.849), #420000 100%);
+
+
+
+
+}
+
+.equipe img {
+
+    width: 150px;
+    border-radius: 100%;
+    height: 150px;
+
+
+
+}
+
+.equipe2 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+}
+
+.nome {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+    color: #dfcdce;
+}
+
+.funcao {
+    color: #8f8e8e;
+    font-size: 1rem;
+
+}
+
+#gerente {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0.8;
+    gap: 1rem;
+    width: 200px;
+    align-items: center;
+
+
+
+}
+
+#totalequipe {
+    width: 100%;
+    height: 100%;
+    gap: 1rem;
+    padding: 1rem 0rem;
+    flex-wrap: wrap;
+    font-family: 'Louis';
+    display: flex;
+}
+
+#usuario {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.616);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#pictureusuario {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px 20px;
+    background-image: url(../img/fael_1.png);
+
+}
+
+#textoinformacaousuario {
+    color: white;
+    margin: 20px 0px;
+}
+
+.userinfo {
+
+    color: rgb(0, 0, 0);
+    margin: 20px -20px;
+
+}
+
+#controleinformacoes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    width: 20%;
+    height: 1%;
+    margin-left: 1%;
+    text-align: center;
+
+}
+
+#titulousuario {
+    text-align: center;
+}
+
+#informacoes {
+    margin-left: 25%;
+    margin-top: 1%;
+    width: 30%;
+    height: 35%;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px black groove;
+}
+
+#informtexto {
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.39);
+    border-radius: 5px;
+    height: 8%;
+    color: white;
+    margin-top: -2%;
+
+
+}
+
+#area {
+    margin: 0px 20px;
+}
+
+.linkprojetousuario {
+    text-decoration: none;
+    color: rgb(77, 7, 7);
+}
+
+#ranking {
+    background-image: url(../img/stars.png);
+    width: 40%;
+    height: 25%;
+    margin-left: 20%;
+}
+
+#download {
+    color: white;
+    font-family: 'Louis';
+}
+
+#download h1 {
+    font-size: 50pt;
+    width: 30%;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+}
+
+
+#xampp {
+
+    color: white;
+    font-family: 'Louis';
+
+
+}
+
+#imgxampp {
+
+
+    height: 104px;
+    width: 304px;
+
+}
+
+.txt {
+    font-family: 'Louis';
+    color: white;
+
+}
+
+#vsc {
+    color: white;
+
+    font-family: 'Louis';
+}
+
+#visualg {
+    color: white;
+    font-family: 'Louis';
+}
+
+
+#boots {
+    color: white;
+    font-family: 'Louis';
+}
+
+
+
+/* ativar para adicionar! */
+
+/* #imgboots{
+
+
+}
+ */
+
+
+
+
+
+#mqb {
+    color: white;
+    font-family: 'Louis';
+}
+
+
+
+
+/* ativar para adicionar! */
+
+/* #imgmqb{
+
+}
+ */
+
+
+
+
+
+
+#pycharm {
+    color: white;
+    font-family: 'Louis';
+
+}
+
+#pgdown {
+    padding: 5%;
+
+
+}
+
+
+
+
+#divprincipaldownload {
+    margin: 0% 2%;
+    width: 95%;
+    height: 185vh;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+#textocentral {
+    text-align: center;
+    font-family: 'louis';
+
+}
+
+#divhr {
+    margin: -0.5% 32%;
+    width: 3px;
+    height: 1715px;
+    position: absolute;
+
+}
+
+#video1 {
+    z-index: 1;
+    margin: 1% 0%;
+    padding: 10px
+}
+
+
+
+#star {
+    height: 300px;
+    width: 700px;
+
+    margin-left: 27%;
+    margin-top: -15%;
+
+}
+
+#ficha {
+
+    background-color: rgba(0, 0, 0, 0.171);
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+#imguser {
+
+    margin-left: -50%;
+
+}
+
+
+.text {
+
+    text-align: justify;
+
+}
+
+
+
+#divdoscards {
+
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    text-align: justify;
+    font-family: 'louis';
+    margin-bottom: 10%;
+    text-align: center;
+
+
+}
+
+.textocard {
+
+
+
+
+    text-align: justify;
+    width: 300px;
+
+
+
+}
+
+.imgcards {
+
+    border-radius: 20px;
+
+}
+
+.cards {
+    padding: 90px;
+    margin-right: -11%;
+
+
+
+
+}
+
+.cards p {
+
+
+    width: 100%;
+    padding: 15px;
+
+}
+
+#divprincipaldownload {
+    margin: 0% 2%;
+    width: 95%;
+    height: 235vh;
+    background-color: rgba(128, 128, 128, 0.356);
+    border-radius: 20px;
+
+}
+
+#textocentral {
+    text-align: center;
+    font-family: 'louis';
+    font-size: 23pt;
+    
+}
+
+#divhr {
+    margin: -0.5% 32%;
+    width: 3px;
+    height: 223.5%;
+    position: absolute;
+}
+
+#video1 {
+    z-index: 1;
+    margin: 1% 0%;
+    padding: 10px
+}
+
+#textocurso {
+    margin: 0% 35%;
+    position: absolute;
+    width: 55%;
+    font-family: louis;
+    font-size: 18pt;
+    text-align: justify;
+}
+
+#textocentral {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+
+}
+
+#finalhr {
+    margin-top: 0%;
+    width: 93%;
+}

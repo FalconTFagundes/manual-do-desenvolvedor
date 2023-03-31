@@ -1,0 +1,156 @@
+<!--div com os links do rodape-->
+        <div class="linkrodape">
+            <br>
+            <!--inicio links rodape-->
+            <a href="contato.php" class='fonterodape'>contato</a><br><br>
+            <a href="saibamais.php" class='fonterodape'>saiba mais</a><br><br>
+            <a href="quemsomos.php" class='fonterodape'>Quem somos? </a><br><br>
+            <a href="contato.php" class='fonterodape' style="text-align: center;">nos siga nas redes sociais</a>
+        </div>
+        <!--fim dos links do rodape-->
+
+        <!--inicio div logo rede social rodape (logo 1 : face, logo 2 : insta, logo 3 : telegram )-->
+        <!--inicio das 3 primeiras logos-->
+        <div id="logorodape4">
+            <div id="logorodape1">
+
+            </div>
+            <div id="logorodape2">
+
+            </div>
+            <div id="logorodape3">
+
+            </div>
+        </div>
+        <!--fim das 3 primeiras logos-->
+
+
+        <!--inicio das 3 primeiras logos em baixo (logo 5 : linkedin, logo 6 : youtube, logo 7 : twiiter)-->
+        <div id="iconesrodape2">
+            <div id="logorodape5">
+
+            </div>
+            <div id="logorodape6">
+
+            </div>
+            <div id="logorodape7">
+
+            </div>
+
+        </div>
+        <!--fim dos 3 icones finais rodape-->
+
+
+
+
+    </div>
+    <!--fim div rodape-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <div id="cardferramentasglobal">
+            <!--inicio card node-->
+            <div class="cardferramentas">
+                <h1>NODE</h1>
+                
+                <div id="imagemferramenta1">
+               
+              
+
+                <p>Node.js é um software de código aberto, multiplataforma, baseado no interpretador
+                    V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. A
+                    principal
+                    característica
+                    do Node.js é sua arquitetura assíncrona e orientada por eventos. </p>
+
+
+            </div>
+            <!--fim card node-->
+
+            <!--inicio card javascript-->
+                <h1>JAVASCRIPT</h1>
+                <div id="imagemferramenta2">
+
+                </div>
+
+                <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com
+                    tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três
+                    principais tecnologias da World Wide Web.</p>
+
+
+
+            <!--fim card javascript-->
+
+            <!--inicio card php-->
+            <div class="cardferramentas">
+                <h1>PHP</h1>
+                <div id="imagemferramenta3">
+
+                </div>
+
+                <p>PHP é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de
+                    aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World
+                    Wide Web. </p>
+
+
+            </div>
+            <!--fim card php-->
+        </div>
+    </div>
+    </div>
