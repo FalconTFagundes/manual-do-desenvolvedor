@@ -1,2 +1,3 @@
 # manual-do-desenvolvedor
-Manual do Desenvolvedor - Aprenda a programar de um jeito diferente!
+Developer's Handbook - Learn to program differently<br>
+![manualdodesenvolvedor-alt-tag](https://ibb.co/3hvbYn7)
