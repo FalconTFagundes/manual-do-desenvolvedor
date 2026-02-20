@@ -53,7 +53,7 @@ echo ("</div>");
 ?>
 <br>
 <div class='campotextorec'>
-<h1>Alguma reclamação, sujestão ou elogio?  Digite para gente.</h1>
+<h1>Alguma reclamação, sugestão ou elogio?  Digite para gente.</h1>
 <hr>
 <input type='text' placeholder='Digite aqui' class='reclamacaocampo'>
 <button type='submit' class='buttonprojeto'>ENVIAR</button>
